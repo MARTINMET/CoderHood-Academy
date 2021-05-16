@@ -1,2 +1,2 @@
-# Escuelita 👨‍💻 😜
-Ejercicios de lenguajes Varios
+# Escuelita Code 👨‍💻 😜
+-----Ejercicios-----
