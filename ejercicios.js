@@ -1,13 +1,34 @@
-///////Ejercicios clase 1///////
-function lasGalletitasDeEma() {
+///////C1E1/////// (NOTA: en lo sucesivo, C1E1 corresponde a Clase 1 Ejercico 1 )
 
-    console.log('Receta: 3 huevos / 1 barra de chocolate / 0.5 kilos de harina/ 5 cucharadas de azucar')
+let huevos = 3
+let barraDeChocolate = 1
+let kilosDeHarina = 0.5
+let azucar = 5
 
-    let Huevos = parseInt(prompt("cantidad de huevos en la heladera: "));
-    let Chocolate = parseInt(prompt("cantidad de huevos en la heladera: "));
-    let harina = parseInt(prompt("cantidad de huevos en la heladera: "));
-    let azucar = prompt('azucar suficiente para 5 cucharadas? S/N: ');
+if (huevos >= 3 && barraDeChocolate >= 1 && kilosDeHarina >= 0.5 && azucar >= 5) {
+    console.log('Salen Galletitas!')
+} else {
+    console.log('Faltan ingredientes')
+}
+
+/////C1E2//////
+
+
+function Ejercicio2() {
+
+    let precioDePrenda = parseInt(prompt('Ingrese el precio de la Prenda: '));
+    let porcentajeDeAumento = parseInt(prompt('Ingrese porcentaje de Aumento: '));
+    let SacarPorcentaje = ((precioDePrenda * porcentajeDeAumento) / 100);
+    let precioFinal = precioDePrenda + SacarPorcentaje;
+
+
+    if (precioFinal > 4000) {
+        console.log(`el precio es ${precioFinal} y supera los 4000`)
+
+    } else {
+        console.log(`el precio es ${precioFinal}`)
+    }
 
 }
 
-lasGalletitasDeEma()
+//////C1E3//////
