@@ -1,4 +1,5 @@
-///////C1E1/////// (NOTA: en lo sucesivo, C1E1 corresponde a Clase 1 Ejercico 1 )
+///////C1E1/////// 
+//(NOTA: en lo sucesivo, C1E1 corresponde a Clase 1 Ejercico 1 )
 
 let huevos = 3
 let barraDeChocolate = 1
