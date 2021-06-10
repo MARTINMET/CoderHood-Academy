@@ -2,7 +2,7 @@
 
 
 ///////C1E1/////// 
-//(NOTA: en lo sucesivo, C1E1 corresponde a Clase 1 Ejercico 1 )
+//(NOTA: en lo sucesivo, C1E1 corresponde a Clase 1 Ejercicio 1 )
 
 
 /*Emanuel quiere cocinar galletitas y quiere un programa que lo ayude a saber que debe
