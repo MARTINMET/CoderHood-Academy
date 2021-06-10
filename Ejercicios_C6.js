@@ -62,7 +62,7 @@ function C6E2() {
     function pedirInformacion() {
         let persona = { id: 19310, nombre: "Bautista", apellido: "Di Santo" }
 
-        if (Math.random() < 0.25) {
+        if (Math.floor(Math.random() * 100 + 1) < 25) { //ejemplo con .floor para que .random de un numero del 1 al 100
             throw new Error('NetworkError');
 
         } else if (Math.random() < 0.18) {
